@@ -1,5 +1,6 @@
 :root {
   --pr-color: #048853;
+  --second-color: #048853;
 }
 
 body {
@@ -7,8 +8,23 @@ body {
   background-color: #f3fff4;
 }
 
+/* navbar */
+.navbar{
+  z-index: 3;
+}
 .nav-link {
   font-size: 16px;
+}
+*{
+  z-index: 2;
+}
+
+.accsent-img{
+  z-index: 1;
+}
+
+.img-hero{
+  z-index: 1;
 }
 
 .nav-link .active {
@@ -33,4 +49,40 @@ body {
   border: none;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* Hero Section */
+#hero {
+  background: linear-gradient(160deg, var(--second-color), #000);
+  height: 100vh;
+  width: 100%;
+}
+
+.img-hero {
+  height: 80%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.hero-tagline p {
+  font-size: 16px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  line-height: 30px;
+  width: 85%;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
 }
