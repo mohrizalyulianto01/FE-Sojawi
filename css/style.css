@@ -9,21 +9,21 @@ body {
 }
 
 /* navbar */
-.navbar{
+.navbar {
   z-index: 3;
 }
 .nav-link {
   font-size: 16px;
 }
-*{
+* {
   z-index: 2;
 }
 
-.accsent-img{
+.accsent-img {
   z-index: 1;
 }
 
-.img-hero{
+.img-hero {
   z-index: 1;
 }
 
@@ -46,14 +46,14 @@ body {
   height: 40px;
   background-color: transparent;
   color: #fff;
-  border: none;
+  border: 20rem;
   font-size: 16px;
   font-weight: 400;
 }
 
 /* Hero Section */
 #hero {
-  background: linear-gradient(160deg, var(--second-color), #000);
+  background: linear-gradient(160deg, var(--second-color), #1b1b1b);
   height: 100vh;
   width: 100%;
 }
@@ -71,6 +71,7 @@ body {
 
 .hero-tagline p {
   font-size: 16px;
+  color: #fff;
   margin-bottom: 60px;
   margin-top: 20px;
   line-height: 30px;
@@ -85,4 +86,79 @@ body {
   border: none;
   font-size: 20px;
   font-weight: 700;
+}
+
+/* Layanan Section */
+#layanan {
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--second-color);
+}
+
+.sub-title {
+  font-size: 28px;
+  color: #000;
+}
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgb(0, 0, 0.05);
+  transition: all 0.2s ease-in;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--second-color);
+  border-radius: 50%;
+
+  transition: all 1s ease-in;
+}
+
+.card-layanan h3 {
+  color: var(--second-color);
+  font-size: 24px;
+
+  transition: all 2s ease-in;
+}
+
+.card-layanan p {
+  color: #000;
+  font-size: 14px;
+  transition: all 2s ease-in;
+}
+
+/* Kondisi Ketika Hover */
+.card-layanan:hover {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background: linear-gradient(160deg, var(--second-color), #1b1b1b);
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgb(0, 0, 0.05);
+  transition: all 2s ease-in;
+}
+
+.card-layanan:hover .circle-icon {
+  background-color: #fff;
+  transition: all 2s ease-in;
+}
+
+.card-layanan:hover h3 {
+  color: #fff;
+  font-size: 24px;
+  transition: all 2s ease-in;
+}
+
+.card-layanan:hover p {
+  color: #fff;
+  font-size: 14px;
+  transition: all 2s ease-in;
 }
