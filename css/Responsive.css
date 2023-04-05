@@ -2,6 +2,26 @@
 }
 
 @media screen and (max-width: 576px) {
+  .hero-tagline h1 {
+    line-height: 52px;
+  }
+  .hero-hero {
+    width: 75%;
+    height: auto;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  .sub-title {
+    font-size: 16px;
+  }
+  .card-layanan {
+    margin: 15px 0;
+  }
+  #testimoni h2 {
+    font-size: 42px;
+    line-height: 52px;
+  }
 }
 
 @media screen and (max-width: 350px) {
